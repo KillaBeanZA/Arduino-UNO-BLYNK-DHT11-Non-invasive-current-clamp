@@ -2,8 +2,8 @@ Arduino UNO Energy Monitor
 
 Makes use of the following:
 
-Non Invasive 100A current clamp - Analog A0 0-5v Input from Current clamp
-Using a voltage divider and Emonlib for Current and Watts readout.
+Non Invasive 100A current clamp - Analog A0 0-5v 
+Using a voltage divider and Emonlib for Current Rms and Apparent power readout.
 
 DHT11 Digital Temp and humidty 
 ESP01S wifi chip 3.3v
