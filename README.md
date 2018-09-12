@@ -1,3 +1,16 @@
+Arduino UNO Energy Monitor
+
+Makes use of the following:
+
+Non Invasive 100A current clamp - Analog A0 0-5v Input from Current clamp
+Using a voltage divider and Emonlib for Current and Watts readout.
+
+DHT11 Digital Temp and humidty 
+ESP01S wifi chip 3.3v
+
+
+Sends packets to the BLYNK cloud server every 10 seconds
+
 //*************************************************************//
   Download latest Blynk library here:
     https://github.com/blynkkk/blynk-library/releases/latest
@@ -17,18 +30,7 @@
 
  //*************************************************************//
  
-Arduino UNO Energy Monitor
 
-Makes use of the following:
-
-Non Invasive 100A current clamp - Analog A0 0-5v Input from Current clamp
-Using a voltage divider and Emonlib for Current and Watts readout.
-
-DHT11 Digital Temp and humidty 
-ESP01S wifi chip 3.3v
-
-
-Sends packets to the BLYNK cloud server every 10 seconds
 
 
 
